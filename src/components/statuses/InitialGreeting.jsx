@@ -4,8 +4,8 @@ const InitialGreeting = ({ hasError }) => {
   const statusMessage = hasError ? (
     <p>Oops, that was an error.</p>
   ) : (
-    <div>
-      <h3>
+    <div class='greeting-box'>
+      <h3 class="greeting-header">
         Find open source projects on GitHub by searching with labels, languages, or search terms!
       </h3>
       <p>
@@ -20,3 +20,4 @@ const InitialGreeting = ({ hasError }) => {
 };
 
 export default InitialGreeting;
+ 
